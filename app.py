@@ -4,5 +4,5 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Hello, this code was updated locally and pushed to Azure Devops repo!"
+    return "Hello World, this code was updated locally and pushed to Azure Devops repo!"
 
